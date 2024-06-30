@@ -4,7 +4,7 @@ with open("README.md","r") as f:
     description=f.read()
 setup(
     name='peccipy',
-    version='0.0.1', 
+    version='0.0.2', 
     packages=find_packages(),  
     install_requires=[ 
         'pandas',
